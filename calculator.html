@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Calculadora</title>
     <style>
-        
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
@@ -50,46 +50,41 @@
         input[type="button"]:hover {
             background-color: #555;
         }
-
     </style>
 </head>
+
 <body>
     <!-- Background image -->
-    <div
-    class="bg-image"
-    style="
+    <div class="bg-image" style="
     background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp');
      height: 500px;
-     "
-  
-     <!-- Background image -->
-    <h1>Calculadora</h1>
-    <p>
-        <br>
-    </p>
-    <form id="calculator">
-        <input type="text" name="display" id="display" readonly>
-        <br>
-        <input type="button" value="1" onclick="calculator.display.value += '1'">
-        <input type="button" value="2" onclick="calculator.display.value += '2'">
-        <input type="button" value="3" onclick="calculator.display.value += '3'">
-        <input type="button" value="+" onclick="calculator.display.value += '+'">
-        <br>
-        <input type="button" value="4" onclick="calculator.display.value += '4'">
-        <input type="button" value="5" onclick="calculator.display.value += '5'">
-        <input type="button" value="6" onclick="calculator.display.value += '6'">
-        <input type="button" value="-" onclick="calculator.display.value += '-'">
-        <br>
-        <input type="button" value="7" onclick="calculator.display.value += '7'">
-        <input type="button" value="8" onclick="calculator.display.value += '8'">
-        <input type="button" value="9" onclick="calculator.display.value += '9'">
-        <input type="button" value="*" onclick="calculator.display.value += ''">
-        <br>
-        <input type="button" value="C" onclick="calculator.display.value = ''">
-        <input type="button" value="0" onclick="calculator.display.value += '0'">
-        <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
-        <input type="button" value="/" onclick="calculator.display.value += '/'">
-    </form>
+     " <!-- Background image -->
+        <h1>Calculadora</h1>
+        <p>
+            <br>
+        </p>
+        <form id="calculator">
+            <input type="text" name="display" id="display" readonly>
+            <br>
+            <input type="button" value="1" onclick="calculator.display.value += '1'">
+            <input type="button" value="2" onclick="calculator.display.value += '2'">
+            <input type="button" value="3" onclick="calculator.display.value += '3'">
+            <input type="button" value="+" onclick="calculator.display.value += '+'">
+            <br>
+            <input type="button" value="4" onclick="calculator.display.value += '4'">
+            <input type="button" value="5" onclick="calculator.display.value += '5'">
+            <input type="button" value="6" onclick="calculator.display.value += '6'">
+            <input type="button" value="-" onclick="calculator.display.value += '-'">
+            <br>
+            <input type="button" value="7" onclick="calculator.display.value += '7'">
+            <input type="button" value="8" onclick="calculator.display.value += '8'">
+            <input type="button" value="9" onclick="calculator.display.value += '9'">
+            <input type="button" value="*" onclick="calculator.display.value += ''">
+            <br>
+            <input type="button" value="C" onclick="calculator.display.value = ''">
+            <input type="button" value="0" onclick="calculator.display.value += '0'">
+            <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+            <input type="button" value="/" onclick="calculator.display.value += '/'">
+        </form>
     </div>
 </body>
-</html>
